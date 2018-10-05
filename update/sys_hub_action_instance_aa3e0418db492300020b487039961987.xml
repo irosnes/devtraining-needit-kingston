@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <comment>Log the closing of the task.</comment>
+        <compiled_snapshot display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Handle Overdue NeedIt tasks">563e8018db492300020b4870399619ab</flow>
+        <order>4.2</order>
+        <parent_ui_id>95e2ee75-3424-4b1c-bf5d-fd1eb06e0722</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-05 07:19:34</sys_created_on>
+        <sys_id>aa3e0418db492300020b487039961987</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_action_instance_aa3e0418db492300020b487039961987</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-05 07:19:34</sys_updated_on>
+        <ui_id>3949e6d3-6b2c-4cc9-83e9-208a70bc8c92</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=aa3e0418db492300020b487039961987"/>
+    <sys_element_mapping action="delete_multiple" query="id=aa3e0418db492300020b487039961987"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>aa3e0418db492300020b487039961987</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-05 07:19:34</sys_created_on>
+        <sys_id>ae3e0418db492300020b487039961989</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-05 07:19:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>NeedIt Task was automatically closed (too many days since due date):{{f2b4de3d-a091-4376-a214-2308ece68f1f.record.number}}</value>
+    </sys_element_mapping>
+</record_update>
